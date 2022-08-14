@@ -1,0 +1,12 @@
+.pantry-shelf-container, .pantry-shelf {
+    height: 50px;    
+}
+
+.pantry-shelf-container {
+    margin-top: -23px;
+}
+
+.pantry-shelf {
+    background-size: cover;
+    background-position: bottom;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "finalpv1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd finalpv1 && npm start\"",
+    "install": "cd server && npm i && cd ../finalpv1 && npm i",
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "cd finalpv1 && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

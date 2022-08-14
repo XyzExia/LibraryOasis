@@ -1,0 +1,59 @@
+{
+  "short_name": "Steep",
+  "name": "Steep",
+  "description": "Something is brewing",
+  "icons": [
+    {
+      "src": "./images/logo16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+    
+  ],
+  "start_url": ".",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#01579b",
+  "prefer_related_applications": true
+}
